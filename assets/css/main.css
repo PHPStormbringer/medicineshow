@@ -1,0 +1,175 @@
+<style>
+
+/* body {background-image:url('./assets/img/masks.jpg'); } */
+body {background-image:url('./assets/img/bkgd_Main.png'); }
+
+
+
+p {
+    display: block;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+hr {
+    display: block;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    border-style: inset;
+    border-width: 1px;
+}
+#aboutus,
+#angels,
+#artists,
+#contactus,
+#history,
+#home,
+#show_detail,
+#jumpstart,
+#rentals,
+#sponsors,
+#wordplay,
+#workshops {display:inline-block;width:80%;vertical-align:top;background-color:#ffffff; padding: 0 10px 10px;}
+
+
+
+/*aboutus*/
+#aboutus .show_label {display:inline-block;}
+#aboutus .show_data  {display:inline-block;margin:5px;vertical-align:top;}
+
+/*history*/
+#history .show_label {width:100px;display:inline-block;}
+#history .show_data  {min-width:200px;display:inline-block;vertical-align:top;}
+
+/*jumpstart*/
+#jumpstart .title    {width:300px;}
+#jumpstart .authors  {width:300px;}
+#jumpstart .directors{}
+#jumpstart .dates    {width:300px;}
+#jumpstart .notes{}
+
+#jumpstart .show_label {display:inline-block;}
+#jumpstart .show_data  {display:inline-block;vertical-align:top;}
+
+
+
+/*show_detail*/
+#show_detail .show_label {width:70px;margin:0;display:inline-block;}
+#show_detail .show_data  {width:70% ;margin:0;display:inline-block;vertical-align:top;}
+
+
+.sponsor_name{font-weight:bold;font-size:20px;}
+.sponsor_data{font-weight:normal;font-size:18px;}
+
+
+
+
+/*wordplay*/
+#wordplay p {
+    display: block;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+#wordplay .show_label {width:100px;margin:0;display:inline-block;vertical-align:top;font-family:Arial;font-size:12px;}
+#wordplay .show_data  {width:70%  ;margin:0;display:inline-block;vertical-align:top;font-family:Arial;font-size:12px;}
+
+
+#workshops {display:inline-block;border:solid 1px red;width:70%;vertical-align:top;}
+#workshops .show_label {width:100px;margin:0;display:inline-block;vertical-align:top;font-family:Arial;font-size:14px;}
+#workshops .show_data  {margin:0;display:inline-block;vertical-align:top;font-family:Arial;font-size:14px;}
+
+
+
+/* rentals */
+/*	.rentals {width:300px;padding:0 10px;margin:50px auto 0; border:solid 3px blue; background-color:white;}  */
+/*	.rentals {width:300px;padding: 0; margin: 0; border:solid 1px red; background-color:white;} */
+	
+	.rentals img.space_pics {width:280px; }
+	.rentals img.pre_load   {width:35px;height:auto;margin:0 2px; }
+	
+	.rentals img.pre_load:first-child{margin:0 2px 0 0; }
+	.rentals img.pre_load:last-child {margin:0 0 0 2px; }
+	
+	.rentals img.pre_load:hover   {cursor:pointer;}
+	.rentals #thumb_holder {margin:auto; width:280px; }
+	
+	.rentals #title { font-size:1.2em;font-weight:bold; text-align:center; }
+	.rentals #upper_text p{margin: 5px 0; }
+	
+	.rentals #lower_text {margin: 10px auto; width:280px; }
+	.rentals #lower_text .subhead {font-weight:bold;margin-top:5px; }
+	.rentals #lower_text ul {padding-left:20px; }
+	
+@media screen and (min-width: 480px) and (max-width: 799px) {
+/*	.rentals {width:460px;padding: 0 10px; margin: 50px auto 0; border:solid 3px red; background-color:white;}	*/
+/*	.rentals {width:100%;padding: 0; margin: 0; border:solid 1px red; background-color:white;} */
+	
+	.rentals img.space_pics {width:100%; }
+	.rentals img.pre_load   {width:50px;height:auto }
+	
+	.rentals #thumb_holder {margin:auto; width:100%; }
+	.rentals #lower_text {margin: 10px auto; width:100%; }
+}
+
+@media screen and (min-width: 800px) {
+/*	.rentals {width:770px;padding: 0 15px; margin: 50px auto 0; border:solid 3px red; background-color:white;} */
+/*    .rentals {width:770px;padding: 0; margin: 0 auto; border:solid 1px red; background-color:white;} */
+	
+	.rentals img.space_pics {width:100%; }
+	.rentals img.pre_load   {width:10%;height:auto }
+	
+	.rentals #thumb_holder {margin:auto;     width:80%; }
+	.rentals #lower_text {margin: 10px auto; width:80%; }
+}
+
+/* For an environment that doesn't support media queries */
+
+/*	.rentals .rental_display {width:770px;padding: 0 15px; margin: 50px auto 0; border:solid 3px red; background-color:white;}  */
+
+/*	.rentals .rental_display {width:100%;padding: 0; margin: 0 auto; border:solid 1px blue; background-color:white;}
+
+	.rentals .rental_display img.space_pics {width:100%; }
+	.rentals .rental_display img.pre_load   {width:14%;height:auto;margin:0 0.5%; }
+
+	.rentals .rental_display img.pre_load:first-child{margin:0 0 0 1%; }
+	.rentals .rental_display img.pre_load:last-child {margin:0 1% 0 0; }
+
+	.rentals .rental_display img.pre_load:hover   {cursor:pointer;}
+	.rentals .rental_display #thumb_holder {margin:auto; width:100%; }
+
+	.rentals .rental_display #title { font-size:1.2em;font-weight:bold; text-align:center; }
+	.rentals .rental_display #upper_text p{margin: 5px 0;text-align:left; }
+
+	.rentals .rental_display #lower_text {margin: 10px auto; width:100%;text-align:left; }
+	.rentals .rental_display #lower_text .subhead {font-weight:bold;margin-top:5px; }
+	.rentals .rental_display #lower_text ul {padding-left:20px; }
+*/
+
+
+#show_detail .title      {}
+#show_detail .authors    {}
+#show_detail .directors  {}
+#show_detail .artists    {}
+#show_detail .cast       {}
+
+#show_detail .season     {}
+#show_detail .dates      {}
+#show_detail .desc       {}
+
+
+/* menu */
+
+.menu_bloc {display:inline-block;background-color:#ffffaa; padding: 0 10px 10px; border:solid 2px #0000ff;}
+.menu_item {width:100px;}
+
+
+
+
+</style>
